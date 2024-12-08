@@ -1,4 +1,5 @@
 // Register Form Submission
+console.log("Script loaded");
 document.getElementById("registerForm")?.addEventListener("submit", async (e) => {
     e.preventDefault();
     const username = document.getElementById("username").value;
