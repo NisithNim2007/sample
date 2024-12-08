@@ -5,7 +5,7 @@ document.getElementById("registerForm")?.addEventListener("submit", async (e) =>
     const username = document.getElementById("username").value;
     const password = document.getElementById("password").value;
 
-    const response = await fetch("http://nisith.42web.io/register.php", {
+    const response = await fetch("https://nisith.42web.io/register.php", {
         method: "POST",
         headers: {
             "Content-Type": "application/x-www-form-urlencoded",
@@ -23,7 +23,7 @@ document.getElementById("loginForm")?.addEventListener("submit", async (e) => {
     const username = document.getElementById("username").value;
     const password = document.getElementById("password").value;
 
-    const response = await fetch("http://nisith.42web.io/login.php", {
+    const response = await fetch("https://nisith.42web.io/login.php", {
         method: "POST",
         headers: {
             "Content-Type": "application/x-www-form-urlencoded",
